@@ -1,41 +1,44 @@
-# Todo App
+# MD NEWS
 
 <div align="center">
-  <img src="./src/assets/todo-ts.gif" />
+  <img src="./src/assets/Animation.gif" />
 </div>
 
 ## About the Project
 
-This project, which I created using Vite-React-TypeScript, includes a to-do list application where users can add and delete tasks.
+This project, created with react redux toolkit, is an application that shows world news and can be logged in easily with e-mail and password. You can find the source of the news by pressing the detail button in the news.
 
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [Project Skeleton](#project-skeleton)
+- [Used Libraries](#UsedLibraries)
 - [Screenshots](#screenshots)
 
 ## Live Demo
 
-[Todo App](https://todo-with-ts-eight.vercel.app/)
+[MD NEWS](https://react-redux-toolkit-work.vercel.app/login)
 
 
-## Technologies Used
+##  Used Libraries
+- @reduxjs/toolkit
+- react-redux
+- axios
+- react-router-dom
+- @mui/material-ui
+- @emotion/react
+- @emotion/styled
 
-- React
-- TypeScript
-- Vite
-- Axios for API requests
-- Styling with [Material UI](https://mui.com/)
-- [Sweetalert2](https://sweetalert2.github.io/) for alert 
-- [Mockapi](https://mockapi.io//) for API 
+## Used API:
+https://newsapi.org/
+(Click on the "Get Key" button to obtain the API key)
+
 
 ## Usage
 
-- Type your task in the input section to add a new task.
-- Click the "ADD" button after entering your task.
-- When you have completed a task, you can click on the completed task and move it to the completed section or send it back to the to-do section.
-- You can delete a task by clicking on the trash bin icon.
+- Enter your email and password
+- You can look at the news you want and go to the detail page.
+- You can log out.
 
 
 
